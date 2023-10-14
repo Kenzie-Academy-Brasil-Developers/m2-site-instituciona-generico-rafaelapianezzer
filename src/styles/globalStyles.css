@@ -1,0 +1,51 @@
+@import url(reset.css);
+
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+    --gray-1: #191C1F;
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+
+    --font-primary: "Inter", sans-serif;
+
+    --title-1-weight: 600;
+    --title-1-size: 52px;
+    --title-1-line-height: 140%;
+
+    --title-2-weight: 600;
+    --title-2-size: 40px;
+    --title-2-line-height: 160%;
+
+    --title-3-weight: 600;
+    --title-3-size: 32px;
+    --title-3-line-height: 160%;
+
+    --text-1-weight: 400;
+    --text-1-size: 20px;
+    --text-1-height: 150%;
+
+    --text-2-weight: 400;
+    --text-2-size: 18px;
+    --text-2-height: 150%;
+
+    --text-3-weight: 400;
+    --text-3-size: 16px;
+    --text-3-height: 150%;
+
+    --text-4-weight: 600;
+    --text-4-size: 16px;
+    --text-4-height: 150%;
+
+
+
+
+    
+
+
+
+}
