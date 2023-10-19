@@ -19,6 +19,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 header button {
@@ -185,6 +188,12 @@ header button {
 }
 
 
+.doubts__position {
+    position: sticky;
+    top: 160px;
+}
+
+
 button:hover {
     cursor: pointer;
 }
@@ -271,6 +280,8 @@ button:hover {
     padding: 3rem;
     justify-content: space-around;
     align-items: baseline;
+    position: sticky;
+    top: 150px;
 }
 
 .reviews__frame p {
@@ -290,6 +301,7 @@ button:hover {
     color: var(--gray-7);
 
 }
+
 
 footer {
     height: 102px;
