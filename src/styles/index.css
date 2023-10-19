@@ -1,0 +1,303 @@
+@import url(reset.css);
+@import url(./globalStyles.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: var(--font-primary)
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--gray-1);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header button {
+    font-weight: var(--text-4-weight);
+    font-size: var(--text-4-size);
+    line-height: var(--text-4-height);
+    background-color: var(--gray-1);
+    color: var(--gray-7);
+    width: 266px;
+    height: 60px;
+    border: 1px solid var(--gray-7);
+    text-align: center;
+}
+
+/* BANNER */
+
+#banner__container {
+    background-color: var(--gray-2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+    justify-content: space-around;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+#banner__container h1 {
+    font-weight: var(--title-1-weight);
+    font-size: var(--title-1-size);
+    line-height: var(--title-1-height);
+    color: var(--gray-6);
+}
+
+.banner__span {
+    color: var(--brand-1);
+}
+
+#banner__container p {
+    font-weight: var(--text-1-weight);
+    font-size: var(--text-1-size);
+    line-height: var(--text-1-height);
+    color: var(--gray-4);
+    text-align: center;
+    width: 770px;
+}
+
+#banner__container button {
+    display: flex;
+    height: 60px;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--brand-1);
+    background-color: var(--brand-1);
+    font-weight: var(--text-4-weight);
+    font-size: var(--text-4-size);
+    line-height: var(--text-4-height);
+    color: var(--gray-7);
+}
+
+/* ABOUT */
+
+#about {
+    height: 284px;
+    width: 100%;
+    background-color: var(--gray-1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-weight: var(--title-2-weight);
+    font-size: var(--title-2-size);
+    line-height: var(--title-2-height);
+    color: var(--gray-6);
+    width: 620px;
+
+}
+
+#about p {
+    font-weight: var(--text-1-weight);
+    font-size: var(--text-1-size);
+    line-height: var(--text-1-height);
+    color: var(--gray-5);
+    text-align: justify;
+    width: 580px;
+
+}
+
+/* FAQ */
+
+#doubts__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    background-color: var(--gray-2);
+    gap: 90px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+
+#doubts__container h2 {
+    font-weight: var(--title-2-weight);
+    font-size: var(--title-2-size);
+    line-height: var(--title-2-height);
+    color: var(--gray-6);
+    width: 533px;
+    margin-bottom: 2rem;
+}
+
+#doubts__container h3 {
+    font-weight: var(--title-3-weight);
+    font-size: var(--title-3-size);
+    line-height: var(--title-3-height);
+    color: var(--gray-6);
+    width: 411px;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+#doubts__container p {
+    font-weight: var(--text-1-weight);
+    font-size: var(--text-1-size);
+    line-height: var(--text-1-height);
+    color: var(--gray-4);
+    width: 583px;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.doubts__container__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#doubts__container button {
+    display: flex;
+    width: 266px;
+    height: 60px;
+    padding: 20px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--brand-1, #4C6EF5);
+    background: var(--brand-1, #4C6EF5);
+    font-weight: var(--text-4-weight);
+    font-size: var(--text-4-size);
+    line-height: var(--text-4-height);
+    color: var(--gray-7);
+    white-space: nowrap;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+
+
+.reviews__container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 56px;
+    background-color: var(--gray-2);
+    margin: 0 auto;
+    padding-top: 4rem;
+
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+}
+
+.reviews__column {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 620px;
+    margin-bottom: 82px;
+    gap: 16px;
+    margin-right: 2rem;
+}
+
+
+.reviews__names {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.reviews__names p {
+    font-weight: var(--text-3-weight);
+    font-size: var(--text-3-size);
+    line-height: var(--text-3-height);
+    color: var(--gray-4);
+
+}
+
+.reviews__container h3 {
+    font-weight: var(--title-3-weight);
+    font-size: var(--title-3-size);
+    line-height: var(--title-3-height);
+    color: var(--gray-6);
+    white-space: nowrap;
+    width: 192px;
+    height: 47px;
+}
+
+.reviews__container p {
+    font-weight: var(--text-2-weight);
+    font-size: var(--text-2-size);
+    line-height: var(--text-2-height);
+    color: var(--gray-5);
+    width: 412px;
+    text-align: justify;
+
+}
+
+.reviews__frame {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+    gap: 35px;
+    background: var(--brand-1, #4C6EF5);
+    width: 25rem;
+    height: 19rem;
+    margin-left: 56px;
+    padding: 3rem;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.reviews__frame p {
+    font-weight: var(--text-1-weight);
+    font-size: var(--text-1-size);
+    line-height: var(--text-1-height);
+    color: var(--gray-7);
+    text-align: justify;
+    width: 100%;
+    border: 1px;
+}
+
+.reviews__frame h2 {
+    font-weight: var(--title-2-weight);
+    font-size: var(--title-2-size);
+    line-height: var(--title-2-height);
+    color: var(--gray-7);
+
+}
+
+footer {
+    height: 102px;
+    background-color: var(--gray-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    fill: var(--gray-6, #EDF2FF);
+
+}
