@@ -17,32 +17,30 @@
     --font-primary: "Inter", sans-serif;
 
     --title-1-weight: 600;
-    --title-1-size: 52px;
+    --title-1-size: clamp(2rem, 4vw, 3.25rem); /* Entre 2rem e 4vw, mas não ultrapassando 3.25rem */
     --title-1-height: 140%;
 
     --title-2-weight: 600;
-    --title-2-size: 40px;
+    --title-2-size: clamp(1.5rem, 3vw, 2.5rem); /* Entre 1.5rem e 3vw, mas não ultrapassando 2.5rem */
     --title-2-height: 160%;
 
-
     --title-3-weight: 600;
-    --title-3-size: 32px;
+    --title-3-size: clamp(1.25rem, 2.5vw, 2rem); /* Entre 1.25rem e 2.5vw, mas não ultrapassando 2rem */
     --title-3-height: 160%;
 
     --text-1-weight: 400;
-    --text-1-size: 20px;
+    --text-1-size: clamp(1rem, 2vw, 1.25rem); /* Entre 1rem e 2vw, mas não ultrapassando 1.25rem */
     --text-1-height: 150%;
 
     --text-2-weight: 400;
-    --text-2-size: 18px;
+    --text-2-size: clamp(0.875rem, 1.75vw, 1.125rem); /* Entre 0.875rem e 1.75vw, mas não ultrapassando 1.125rem */
     --text-2-height: 150%;
 
     --text-3-weight: 400;
-    --text-3-size: 16px;
+    --text-3-size: clamp(0.75rem, 1.5vw, 1rem); /* Entre 0.75rem e 1.5vw, mas não ultrapassando 1rem */
     --text-3-height: 150%;
 
     --text-4-weight: 600;
-    --text-4-size: 16px;
+    --text-4-size: clamp(0.75rem, 1.5vw, 1rem); /* Entre 0.75rem e 1.5vw, mas não ultrapassando 1rem */
     --text-4-height: 150%;
-
 }
